@@ -1,0 +1,7 @@
+Raytracer with perlin noise and anti-aliasing made in 06-2016.
+
+1. Choose a scene in Raytracer/Assets
+2. choose to turn on or off the aliasing in option
+3. Choose a shape
+4. Choose the perlins options to do on it
+5. Click on render

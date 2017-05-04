@@ -1,0 +1,52 @@
+<root>
+	<light id="ambient">
+		<color id="diffuse">
+			<composant id="r">255</composant>
+			<composant id="g">255</composant>
+			<composant id="b">255</composant>
+		</color>
+	</light>
+	<light id="spot">
+		<attribute id="constant">0.3</attribute>
+		<attribute id="linear">0.03</attribute>
+		<attribute id="quadratic">0.01</attribute>
+		<attribute id="cutOff">0.984</attribute>
+		<attribute id="outerCutOff">0.970</attribute>
+		<color id="diffuse">
+			<composant id="r">255</composant>
+			<composant id="g">255</composant>
+			<composant id="b">255</composant>
+		</color>
+		<vector id="pos">
+			<composant id="x">1</composant>
+			<composant id="y">-3</composant>
+			<composant id="z">-1</composant>
+		</vector>
+		<vector id="direction">
+			<composant id="x">0</composant>
+			<composant id="y">1</composant>
+			<composant id="z">2</composant>
+		</vector>
+	</light>
+  <shape id="cube">
+    <attribute id="size">2</attribute>
+    <material>
+      <color id="diffuse">
+        <composant id="r">255</composant>
+        <composant id="g">0</composant>
+        <composant id="b">255</composant>
+      </color>
+      <color id="specular">
+        <composant id="r">255</composant>
+        <composant id="g">255</composant>
+        <composant id="b">255</composant>
+      </color>
+      <attribute id="shininess">32.0</attribute>
+    </material>
+    <vector>
+      <composant id="x">1</composant>
+      <composant id="y">2</composant>
+      <composant id="z">6</composant>
+    </vector>
+  </shape>
+</root>

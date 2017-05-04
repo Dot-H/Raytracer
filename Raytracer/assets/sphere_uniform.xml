@@ -1,0 +1,30 @@
+﻿<root>
+  <light id="ambient">
+    <color id="diffuse">
+      <composant id="r">255</composant>
+      <composant id="g">255</composant>
+      <composant id="b">255</composant>
+    </color>
+  </light>
+  <shape id="sphere">
+    <attribute id="radius">0.5</attribute>
+    <material>
+      <color id="diffuse">
+        <composant id="r">0</composant>
+        <composant id="g">0</composant>
+        <composant id="b">240</composant>
+      </color>
+      <color id="specular">
+        <composant id="r">255</composant>
+        <composant id="g">255</composant>
+        <composant id="b">255</composant>
+      </color>
+      <attribute id="shininess">32.0</attribute>
+    </material>
+    <vector>
+      <composant id="x">0</composant>
+      <composant id="y">0</composant>
+      <composant id="z">3</composant>
+    </vector>
+  </shape>
+</root>
